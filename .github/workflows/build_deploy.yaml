@@ -1,4 +1,6 @@
 on: [push]
+permissions:
+  contents: write
 jobs:
   Build-Deploy:
     runs-on: ubuntu-latest
